@@ -4,8 +4,6 @@ import sys
 im1 = Image.open(sys.argv[1])
 im2 = Image.open(sys.argv[2])
 
-aa = im1.load()
-bb = im2.load()
 width, height =  im2.size
 cc = Image.new("RGBA",(width, height),(0,0,0,0))
 
