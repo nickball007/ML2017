@@ -1,8 +1,5 @@
-from PIL import Image, ImageDraw
-import math
+from PIL import Image
 import sys
-
-from PIL import ImageChops
 
 im1 = Image.open(sys.argv[1])
 im2 = Image.open(sys.argv[2])
