@@ -19,4 +19,4 @@ for j in range(height):
 
 
 
-cc.save("aa.png")
+cc.save("ans_two.png")
